@@ -1,1 +1,33 @@
-﻿
+﻿*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 80px;
+    background: #2B2D42;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+nav a {
+    text-decoration: none;
+    color: #EDF2F4;
+    padding: 0 1.5rem;
+}
+
+nav a:hover {
+    color: #EA526F;
+    text-decoration: none;
+}
+
+.logo {
+    color: #FF8A5B;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
