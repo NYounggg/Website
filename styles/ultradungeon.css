@@ -25,6 +25,15 @@ body {
 } 
 
 
+.wip-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: 'DungeonFont', Arial;
+    font-size: 40px;
+    color: var(--ud-orange);
+}
+
 .back-button-container {
     margin: 20px 20px;
 }
