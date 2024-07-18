@@ -1,0 +1,22 @@
+﻿
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+
+    margin-top: 60px;
+    justify-content: center;
+}
+
+
+.grid-item {
+    height: 300px;
+    background-color: grey;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.grid-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

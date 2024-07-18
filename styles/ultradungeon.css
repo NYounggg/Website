@@ -1,0 +1,98 @@
+﻿
+:root {
+    --ud-purple: #751756;
+    --ud-dark-red: #a32858;
+    --ud-red: #cc425e;
+    --ud-orange: #ea6262;
+    --ud-light-orange: #fbae83;
+
+}
+
+@font-face {
+    font-family: 'DungeonFont';
+    src: url('../fonts/dungeonfontsmallnum.ttf');
+}
+
+body {
+    height: 3000px;
+
+    background-image: url('../images/ultra-bg.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; /* This property ensures the image covers the entire background */
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
+} 
+
+
+.back-button-container {
+    margin: 20px 20px;
+}
+
+.back-button {
+    background-color: transparent;
+    font-family: 'DungeonFont', Arial;
+    font-size: 40px;
+    border: none;
+    color: var(--ud-light-orange);
+    transition: color 0.15s;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    color: var(--ud-orange);
+}
+
+
+.ultra-logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.ultra-logo {
+    margin-top: 0px;
+    width: 494px;
+    height: 230px;
+    image-rendering: crisp-edges;
+}
+
+
+.ud-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-content {
+    background-color: var(--ud-purple);
+    color: white;
+    padding: 15px 15px;
+    width: 66%;
+}
+
+.row-content p {
+    font-family: 'DungeonFont', Arial;
+    font-size: 32px;
+}
+
+.row-content h1 {
+    font-family: 'DungeonFont', Arial;
+    font-size: 40px;
+}
+
+.screenshot {
+    width: 64%;
+    height: 36%;
+    object-fit: cover;
+
+    border-style: solid;
+    border-color: var(--ud-red);
+}
