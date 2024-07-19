@@ -32,6 +32,16 @@ body {
     font-family: 'DungeonFont', Arial;
     font-size: 40px;
     color: var(--ud-orange);
+
+    animation-name: wip-anim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wip-anim {
+    0% { color: var(--ud-orange); }
+    50% { color: var(--ud-light-orange); }
+    100% { color: var(--ud-orange); }
 }
 
 .back-button-container {

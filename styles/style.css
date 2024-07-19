@@ -22,7 +22,7 @@ nav a {
 }
 
 
-nav a:hover, .dropdown:hover .dropbtn {
+.nav-items a:hover, .dropdown:hover .dropbtn {
     text-decoration: none;
     background-color: #EA526F;
 }
@@ -33,6 +33,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     font-weight: bold;
     padding: 0.2rem;
 }
+
 
 /* The dropdown container */
 .dropdown {
@@ -87,17 +88,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-}
-
-div.links-container {
-    text-align: center;
-}
-
-ul.links {
-    font-weight: bold;
-    display:inline-block;
-    text-align: left;
-    color: #2B2D42;
+    margin-bottom: 20px;
 }
 
 
