@@ -5,6 +5,17 @@
     font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-image: url('../images/snowy.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; /* This property ensures the image covers the entire background */
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
+    height: 3000px;
+}
+
+
 nav {
     height: 80px;
     background-color: #2B2D42;

@@ -1,11 +1,11 @@
 ﻿
-
 .info-block-container {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .info-block-container img {
@@ -17,10 +17,7 @@
 }
 
 .info-block {
-    /* background-color: lightblue; */
-
     width: 66%;
-    margin-bottom: 30px;
 }
 
 .info-block h2 {
@@ -28,5 +25,5 @@
 }
 
 .info-block p {
-   
+   font-size: 22px;
 }
