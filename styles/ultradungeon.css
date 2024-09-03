@@ -106,6 +106,16 @@ body {
     font-size: 40px;
 }
 
+.row-content ul {
+    list-style-type: circle;
+    margin-left: 40px;
+}
+
+.row-content li {
+    font-family: 'DungeonFont', Arial;
+    font-size: 32px;
+}
+
 .screenshot {
     width: 64%;
     height: 36%;
