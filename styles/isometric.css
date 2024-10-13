@@ -1,0 +1,77 @@
+﻿
+:root {
+    /* --iso-black: #1f102a; */
+    --iso-black: #20102a; /* adjusted for video quality */
+    --iso-white: #e5d6dc;
+    --iso-red: #8a1941;
+}
+
+@font-face {
+    font-family: 'DungeonFont';
+    src: url('../fonts/dungeonfontsmallnum.ttf');
+}
+
+body {
+    height: 0px;
+
+    background-color: var(--iso-black);
+    background-image: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; /* This property ensures the image covers the entire background */
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
+} 
+
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 44px;
+    font-family: 'DungeonFont', Arial;
+    font-size: 40px;
+    color: var(--iso-white);
+}
+
+
+.back-button-container {
+    margin: 20px 20px;
+}
+
+.back-button {
+    background-color: transparent;
+    font-family: 'DungeonFont', Arial;
+    font-size: 40px;
+    border: none;
+    color: var(--iso-white);
+    transition: color 0.15s;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    color: var(--iso-red);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;  
+}
+
+video {
+    width: 700px;
+    height: 100%;
+    object-fit: cover;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--iso-white);
+}
+
+span {
+    color: var(--iso-red);
+    font-family: 'DungeonFont', Arial;
+    font-size: 40px;
+    margin-left: 10px;
+}
