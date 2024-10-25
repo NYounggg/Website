@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
 }
 
 .info-block-container img {
@@ -26,4 +26,6 @@
 
 .info-block p {
    font-size: 22px;
+   display: flex;
+   justify-content: center;
 }

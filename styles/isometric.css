@@ -68,10 +68,3 @@ video {
     border-width: 2px;
     border-color: var(--iso-white);
 }
-
-span {
-    color: var(--iso-red);
-    font-family: 'DungeonFont', Arial;
-    font-size: 40px;
-    margin-left: 10px;
-}
