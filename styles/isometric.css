@@ -13,7 +13,6 @@
 
 body {
     height: 0px;
-
     background-color: var(--iso-black);
     background-image: none;
     background-position: center;
@@ -27,7 +26,7 @@ body {
 .center-text {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 44px;
     font-family: 'DungeonFont', Arial;
     font-size: 40px;

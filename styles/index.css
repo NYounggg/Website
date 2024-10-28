@@ -9,16 +9,18 @@ body {
     background-image: url('../images/snowy.png');
     background-position: center;
     background-attachment: fixed;
-    background-size: cover; /* This property ensures the image covers the entire background */
+    background-size: cover; 
     background-repeat: no-repeat;
     image-rendering: crisp-edges;
-    height: 3000px;
+
+    height: 100%;
 }
 
 
 nav {
     height: 80px;
     background-color: #2B2D42;
+    background: linear-gradient(60deg,#8D99AE 10%, #2B2D42 35%);
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -36,10 +38,11 @@ nav a {
 .nav-items a:hover, .dropdown:hover .dropbtn {
     text-decoration: none;
     background-color: #EA526F;
+    transition: background-color, 0.15s;
 }
 
 #logo {
-    color: #FF8A5B;
+    color: #2B2D42;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0.2rem;
