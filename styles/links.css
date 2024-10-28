@@ -55,7 +55,52 @@ body {
     margin-left: 10px;
 }
 
+.copy-button {
+    background-color: transparent;
+    color: transparent;
+    border-style: none;
+}
+
 .copy-icon {
     height: 25px;
+    width: 25px;
+}
+
+.copy-button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copy-button .copy-tooltip {
+    position: absolute;
+    margin-left: 70px;
+    padding: 8px 12px;
+    border-radius: 10px;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #2B2D42;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0; 
+
+    pointer-events: none; /* don't show tooltip if hovering tooltip */
+    white-space: nowrap; /* disable text wrap */
+}
+
+.copy-button:focus .copy-tooltip {
+    opacity: 1;
+    animation: fadeout 1.2s forwards;
+}
+
+.copy-button:visited .copy-tooltip {
+    opacity: 0;
+}
+
+@keyframes fadeout {
+    0% { opacity: 100% }
+    50% { opacity: 100% }
+    100% { opacity: 0% }
 }
 

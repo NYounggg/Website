@@ -7,6 +7,8 @@
     <title>Links - Nathan Young</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/links.css">
+    <script src="scripts/copy-text.js"></script>
+
   </head>
 
   <body>
@@ -34,31 +36,50 @@
         <div class="link-row">
           <img class="row-icon" src="images/envelope.svg" alt="">
           <div class="row-text"><a href="mailto:n8zars@gmail.com">n8zars@gmail.com</a></div>
-          <img class="copy-icon" src="images/icon_copy.png" alt="">
+          <button class="copy-button" onclick="copyText('n8zars@gmail.com')">
+            <img class="copy-icon" src="images/icon_copy.png" alt="">
+            <div class="copy-tooltip">Copied</div>
+          </button>
+
         </div>
 
         <div class="link-row">
           <img class="row-icon" src="images/icon-github.svg" alt="">
           <div class="row-text"><a href="https://Github.com/NYounggg" target="_blank" rel="noopener noreferrer">NYounggg</a></div>
-          <img class="copy-icon" src="images/icon_copy.png" alt="">
+          <button class="copy-button" onclick="copyText('https://Github.com/NYounggg')">
+            <img class="copy-icon" src="images/icon_copy.png" alt="">
+            <div class="copy-tooltip">Copied</div>
+          </button>
         </div>
 
         <div class="link-row">
           <img class="row-icon" src="images/icon-linkedin.png" alt="">
           <div class="row-text"><a href="https://www.linkedin.com/in/nyounggg/ "target="_blank" rel="noopener noreferrer">nyounggg</a></div>
-          <img class="copy-icon" src="images/icon_copy.png" alt="">
+          <button class="copy-button" onclick="copyText('https:/linkedin.com/in/nyounggg/')">
+            <img class="copy-icon" src="images/icon_copy.png" alt="">
+            <div class="copy-tooltip">Copied</div>
+          </button>
+
+          
         </div>
 
         <div class="link-row">
           <img class="row-icon" src="images/play-btn.svg" alt="">
           <div class="row-text"><a href="https://youtube.com/@nathan_young" target="_blank" rel="noopener noreferrer">@nathan_young</a></div>
-          <img class="copy-icon" src="images/icon_copy.png" alt="">
+          <button class="copy-button" onclick="copyText('https://youtube.com/@nathan_young')">
+            <img class="copy-icon" src="images/icon_copy.png" alt="">
+            <div class="copy-tooltip">Copied</div>
+          </button>
         </div>
+        
 
         <div class="link-row">
           <img class="row-icon" src="images/itchio-logo-textless-black.svg" alt="">
           <div class="row-text"><a href="https://nyounggg.itch.io/" target="_blank" rel="noopener noreferrer">NYounggg</a></div>
-          <img class="copy-icon" src="images/icon_copy.png" alt="">
+          <button class="copy-button" onclick="copyText('https://nyounggg.itch.io/')">
+            <img class="copy-icon" src="images/icon_copy.png" alt="">
+            <div class="copy-tooltip">Copied</div>
+          </button>
         </div>
       </div>
   
