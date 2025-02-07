@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family : Ubuntu, sans-serif;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 nav {
     height: 80px;
     background-color: #2B2D42;
-    background: linear-gradient(60deg,#8D99AE 10%, #2B2D42 35%);
+    background: linear-gradient(60deg,#3c3f5d 10%, #2B2D42 35%);
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -42,9 +42,9 @@ nav a {
 }
 
 #logo {
-    color: #2B2D42;
+    color: #EDF2F4;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: lighter;
     padding: 0.2rem;
 }
 
@@ -103,6 +103,7 @@ nav a {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 20px;
+    font-weight: lighter;
 }
 
 

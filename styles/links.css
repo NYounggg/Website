@@ -26,7 +26,10 @@ body {
 
     font-size: 22px;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.7);
+
+    background: rgb(204,204,204);
+    background: linear-gradient(0deg, rgba(220,220,220,1) 75%, rgba(255,255,255, 1) 94%);
+
     color: #2B2D42;
 
 }
