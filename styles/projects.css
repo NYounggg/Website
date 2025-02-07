@@ -1,0 +1,64 @@
+﻿:root {
+    --clear: rgba(255, 255, 255, 0.05);
+    --shine1: rgba(255, 255, 255, 0.15);
+    --shine2: rgba(255, 255, 255, 0.65);
+}
+
+body {
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.grid-item {
+    position: relative;
+
+    height: 420px;
+    background-color: #2B2D42;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.8);
+    border-color: #2B2D42;
+    border-style: solid;
+    border-width: 4px;
+
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    cursor: pointer;
+    transform: scale(1.025)
+}
+
+.grid-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-style: none;
+}
+
+.grid-logo {
+    position: absolute;
+    top: 5%;
+    bottom: 0px;
+    right: 5%;
+
+    width: 90%;
+}
+
+.shine-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(40deg, var(--clear) 65%, var(--shine1) 75%, var(--shine2) 85%, var(--shine1) 95% );
+}

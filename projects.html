@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home - Nathan Young</title>
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/videos.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"> 
   </head>
 
   <body>
     <main>
-      <!-- NAV -->
       <nav>
         <a id="logo" href="./index.html">Nathan Young</a>
 
@@ -26,43 +25,40 @@
       </nav>
 
       <div id="background-image"></div>
-      <h1 class="headertext">Videos</h1>
+	  
+      <h1 class="headertext">Projects</h1>
       <hr class="solid" style="width: 60%; margin: auto">
 
-      <!-- Blurb -->
       <div class="info-block-container">
         <div class="info-block">
           <p class="description">
-            Here are some videos I've uploaded on my game development progress.  
-            I plan to eventually do Godot C# tutorials, and detailed dev logs on my main project - ULTRADUNGEON.
+            Here are some of the projects I'm working on.
           </p>
         </div>
       </div>
 
+
       <!-- CONTENT -->
       <div class="grid">
         <div class="grid-item">
-          <iframe class=grid-video width="480" height="315"
-            src="https://www.youtube.com/embed/7AK6oNn9TnA">
-          </iframe> 
+          <img class="grid-image"src="images/project-thumbnail-iso.png"></img>
+          <a href="isometric.html"><div class="shine-overlay"></div></a>
         </div>
 
         <div class="grid-item">
-          <iframe class=grid-video width="420" height="315"
-            src="https://www.youtube.com/embed/3OAh-YetNjg">
-          </iframe> 
+          <img class="grid-image"src="images/project-thumbnail-ud.png"></img>
+          <img class="grid-logo" src="images/ultra-big-yellow.png"></img>
+          <a href="ultradungeon.html"><div class="shine-overlay"></div></a>
         </div>
 
         <div class="grid-item">
-          <iframe class=grid-video width="420" height="315"
-            src="https://www.youtube.com/embed/EMP3d88z4pA">
-          </iframe> 
+          <img class="grid-image"src="images/project-thumbnail-rk.png"></img>
+          <a href=""><div class="shine-overlay"></div></a>
         </div>
-
       </div>
-
+      
 
     </main>
   </body>
-
 </html>
+
