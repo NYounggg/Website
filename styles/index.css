@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('../images/snowy.png');
+    background-image: url('../images/snowy-blurred.png');
     background-position: center;
     background-attachment: fixed;
     background-size: cover; 
