@@ -25,7 +25,8 @@
 }
 
 .info-block p {
-   font-size: 22px;
-   display: flex;
-   justify-content: center;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    color: #2B2D42;
 }
