@@ -27,8 +27,12 @@ body {
     font-size: 22px;
     font-weight: light;
 
-    background: rgb(204,204,204);
-    background: linear-gradient(0deg, rgba(220,220,220,1) 75%, rgba(240,240,240, 1) 94%);
+    /* background: rgb(204,204,204); */
+    /* background: linear-gradient(0deg, rgba(220,220,220,1) 75%, rgba(240,240,240, 1) 94%); */
+
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(215, 218, 233, 0.425);
+    border: 1px solid rgba(255, 255, 255, 0.125);
 
     color: #2B2D42;
 

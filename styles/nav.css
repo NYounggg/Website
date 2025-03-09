@@ -4,7 +4,9 @@
     align-items: center;
     height: 80px;
     background-color: #2B2D42;
-    background: linear-gradient(60deg,#3c3f5d 10%, #2B2D42 35%);
+    background: linear-gradient(60deg,#3c3f5d91 10%, #2b2d42af 35%);
+    backdrop-filter: blur(16px) saturate(180%);
+
     display: flex;
     justify-content:space-between;
     align-items: center;
