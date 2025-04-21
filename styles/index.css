@@ -6,14 +6,20 @@
 }
 
 body {
+    
+}
+
+#background {
+    position: fixed;
+    top: 0;
+
+    height: 100vh;
+    width: 100%;
     background-image: url('../images/snowy.png');
     background-position: center;
-    background-attachment: fixed;
     background-size: cover; 
-    background-repeat: no-repeat;
     image-rendering: crisp-edges;
-
-    height: 100%;
+    z-index: -1;
 }
 
 .headertext {
@@ -22,6 +28,38 @@ body {
     margin-top: 50px;
     margin-bottom: 20px;
     font-weight: lighter;
+    color: #2B2D42;
+}
+
+.info-block-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.info-block-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.info-block {
+    width: 66%;
+}
+
+.info-block h2 {
+    margin-bottom: 20px;
+}
+
+.info-block p {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
     color: #2B2D42;
 }
 
