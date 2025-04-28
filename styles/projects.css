@@ -33,6 +33,7 @@ body {
     transition: transform 0.3s ease;
 }
 
+
 .grid-item:hover {
     cursor: pointer;
     transform: scale(1.025)
@@ -52,6 +53,33 @@ body {
     right: 5%;
 
     width: 90%;
+}
+
+.grid-item-textbox {
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: #2b2d427e;
+    border-top: 2px solid #2b2d42;
+
+    width: 100%;
+    height: 32%;
+    padding: 10px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.grid-item-textbox p {
+    color: white;
+}
+
+.grid-item-textbox p a{
+    color: white;
+    transition: color 0.15s;
+}
+
+.grid-item-textbox p a:hover{
+    color: #cc425e;
+    
 }
 
 .shine-overlay {
